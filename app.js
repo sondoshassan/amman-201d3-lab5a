@@ -14,7 +14,7 @@ function sum(a,b) { //eslint-disable-line
     return [totalSum,userMassege];
 
 }
-sum(4,7);
+sum(4,5);
 // Here is the test for sum(); uncomment it to run it
 testSum(4,7);
 
@@ -30,11 +30,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+var multi=a*b;
+var message = `The product of ${a} and ${b} is ${multi}.`
+return [multi,message];
 }
-
+multiply(5,3);
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,3);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
